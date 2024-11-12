@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto+Serif", serif;
+}
+
+/* button colors */
+/* ************* */
+/* outline color or border color #ffc966 */
+/* button hover color #ffa500 */
+
+html {
+  font-size: 62.5%;
+}
+
+.primary-heading {
+  font-size: 3.2rem;
+}
+
+/* general style */
+/* *************** */
+
+.secondary-heading {
+  font-size: 3.2rem;
+}
+.tersiary-heading {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.fourth-heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.paragraph {
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.spacing {
+  padding-top: 10rem;
+}
+
+/* nav menu bar design */
+/* ******************* */
+.nav-item {
+  font-size: 1.8rem;
+}
+.primary-button {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: black;
+  border: 1px solid #ffc966;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s ease;
+}
+.primary-button:hover {
+  background-color: #ffa500;
+}
+/* hero section design*/
+/* ******************/
+.hero-section {
+  margin-top: 6rem;
+}
+/* about section design */
+/* ******************** */
+
+.padding-bottom {
+  padding-bottom: 2.4rem;
+}
+.about-picture {
+  margin-bottom: 3rem;
+}
+.right-text-container h3 {
+  padding-bottom: 1rem;
+}
+
+/* menu item card */
+/* ************** */
+.paragraph-card {
+  font-size: 1.2rem;
+}
+.card .fourth-heading {
+  margin-top: 1rem;
+}
+
+/* contact us */
+/* ********** */
+.content-background {
+  background-color: #ffa500;
+  padding: 2rem;
+}
+
+.right-content-contact {
+  align-items: center;
+  justify-content: center;
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Form group and labels */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input fields and textarea */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.form-control:focus {
+  background-color: #fff;
+  border-color: #007bff;
+}
+
+/* Button styling */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Footer Design */
+/* ************** */
+.footer-container {
+  height: 5rem;
+  border-top: 1px solid black;
+  align-items: center;
+}
+.social-icon-container {
+  list-style: none;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #ffa500;
+}
+.social-icon:hover {
+  color: black;
+}
